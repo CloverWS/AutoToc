@@ -18,6 +18,10 @@ python autoToc.py C:\Users\zhang\Documents\GitHub\YunPingTai\部署K8S.md
 ### TODO
 将来会开发桌面应用程序，更加方便使用
 
+## 问题
+
+`Node 端配置——Nginx`   这种的没法处理
+
 ## 参考文献：
 [ekalinin/github-markdown-toc: Easy TOC creation for GitHub](!https://github.com/ekalinin/github-markdown-toc)
 

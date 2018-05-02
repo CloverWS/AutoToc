@@ -22,20 +22,20 @@ if __name__=="__main__":
             continue
 
         if line.startswith("#####"):
-            line = line.replace("##### ","").replace(" ","").strip()
-            toc.append("\t"*4+"* ["+line+"](#"+line+")")
+            line = line.replace("##### ","").strip()
+            toc.append("\t"*4+"* ["+line+"](#"+line.replace(" ","-").lower()+")")
         elif(line.startswith("####")):
-            line = line.replace("#### ","").replace(" ","").strip()
-            toc.append("\t"*3+"* ["+line+"](#"+line+")")
+            line = line.replace("#### ","").strip()
+            toc.append("\t"*3+"* ["+line+"](#"+line.replace(" ","-").lower()+")")
         elif(line.startswith("###")):
-            line = line.replace("### ","").replace(" ","").strip()
-            toc.append("\t"*2+"* ["+line+"](#"+line+")")
+            line = line.replace("### ","").strip()
+            toc.append("\t"*2+"* ["+line+"](#"+line.replace(" ","-").lower()+")")
         elif(line.startswith("##")):
-            line = line.replace("## ","").replace(" ","").strip()
-            toc.append("\t"*1+"* ["+line+"](#"+line+")")
+            line = line.replace("## ","").strip()
+            toc.append("\t"*1+"* ["+line+"](#"+line.replace(" ","-").lower()+")")
         elif(line.startswith("#")):
-            line = line.replace("# ","").replace(" ","").strip()
-            toc.append("\t"*0+"* ["+line+"](#"+line+")")
+            line = line.replace("# ","").strip()
+            toc.append("\t"*0+"* ["+line+"](#"+line.replace(" ","-").lower()+")")
         else:
             pass
 

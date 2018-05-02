@@ -1,11 +1,13 @@
 
-* [github中的md文档自动创建TOC](#github中的md文档自动创建TOC)
+* [github中的md文档自动创建TOC](#github中的md文档自动创建toc)
 
 	* [使用方法](#使用方法)
 
 		* [命令行模式](#命令行模式)
 
-		* [TODO](#TODO)
+		* [TODO](#todo)
+
+	* [问题](#问题)
 
 	* [参考文献：](#参考文献：)
 # github中的md文档自动创建TOC
@@ -27,6 +29,10 @@ python autoToc.py C:\Users\zhang\Documents\GitHub\YunPingTai\部署K8S.md
 
 ### TODO
 将来会开发桌面应用程序，更加方便使用
+
+## 问题
+
+`Node 端配置——Nginx`   这种的没法处理
 
 ## 参考文献：
 [ekalinin/github-markdown-toc: Easy TOC creation for GitHub](!https://github.com/ekalinin/github-markdown-toc)
