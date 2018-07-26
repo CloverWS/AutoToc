@@ -8,15 +8,21 @@ github上有一个[项目](!https://github.com/ekalinin/github-markdown-toc)是�
 
 实现的效果如本项目中的 readme.withtoc.md 所示
 
-## 使用方法
+## autoToc
 
-### 命令行模式
+> 自动在文章前面加上目录
+
 ```bash
 python autoToc.py C:\Users\zhang\Documents\GitHub\YunPingTai\部署K8S.md
 ```
 
-### TODO
-将来会开发桌面应用程序，更加方便使用
+## autoTitle
+
+> 自动在标题前面加上 1、1.1、1.2、2.2.2等
+
+```bash
+python autoTitle.py C:\Users\zhang\Documents\GitHub\YunPingTai\部署K8S.md
+```
 
 ## 问题
 
